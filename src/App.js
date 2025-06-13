@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 
+
 const App = () => {
   return (
     <>

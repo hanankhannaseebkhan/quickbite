@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker Image
-      run: docker build -t hanankhan1/quickbite-react-app .
+      run: docker build -t hanankhannaseebkhan/quickbite:latest .
 
     - name: Push Docker Image to Docker Hub
-      run: docker push hanankhan1/quickbite-react-app
+      run: docker push hanankhannaseebkhan/quickbite:latest
